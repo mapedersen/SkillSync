@@ -11,6 +11,17 @@ public class UserRepository : IUserRepository
     {
         _context = appDbContext;
     }
+
+    public void Add(User user)
+    {
+        _context.Users.Add(user);
+    }
+
+    public void Delete(User user)
+    {
+        _context.Remove(user);
+    }
+
     public async Task<bool> ExistsAsync(string email, string username)
     {
         return await _context.Users.AnyAsync(u => u.Email == email || u.Username == username);
