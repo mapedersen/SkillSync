@@ -233,6 +233,13 @@ csharp_preserve_single_line_statements = true
 # IDE0060: Remove unused parameter
 dotnet_diagnostic.IDE0060.severity = warning
 
+# Roslynator-specific rules
+dotnet_diagnostic.RCS1170.severity = none
+dotnet_diagnostic.RCS0063.severity = suggestion
+dotnet_diagnostic.RCS1021.severity = suggestion
+dotnet_diagnostic.RCS1110.severity = suggestion
+dotnet_diagnostic.RCS1036.severity = none
+
 [src/{Compilers,ExpressionEvaluator,Scripting}/**Test**/*.{cs,vb}]
 
 # IDE0060: Remove unused parameter
@@ -285,3 +292,5 @@ dotnet_diagnostic.IDE2006.severity = warning
 # CA1822: Make member static
 # There is a risk of accidentally breaking an internal API that partners rely on though IVT.
 dotnet_code_quality.CA1822.api_surface = private
+
+
