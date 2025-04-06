@@ -1,6 +1,4 @@
-using API.Models.DTOs.Goal;
-
-namespace API.Models.DTOs.User;
+namespace API.Models.DTOs;
 
 public class UserResponseDto
 {

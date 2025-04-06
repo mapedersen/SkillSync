@@ -1,4 +1,4 @@
-namespace API.Models.DTOs.Goal;
+namespace API.Models.DTOs;
 
 public class GoalResponseDto
 {
@@ -7,5 +7,4 @@ public class GoalResponseDto
     public string? Description { get; init; }
     public string? Category { get; init; }
     public DateTime CreatedAt { get; init; }
-
 }

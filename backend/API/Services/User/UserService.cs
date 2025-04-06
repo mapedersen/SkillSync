@@ -1,6 +1,6 @@
-using API.Models.DTOs.User;
+using API.Models.DTOs;
 
-namespace API.Services.User;
+namespace API.Services;
 
 public class UserService : IUserService
 {

@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace API.Models.DTOs.Goal;
+namespace API.Models.DTOs;
 
 public class CreateGoalDto
 {

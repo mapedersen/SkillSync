@@ -1,4 +1,4 @@
-namespace API.Models.DTOs.Log;
+namespace API.Models.DTOs;
 public class LogResponseDto
 {
     public Guid Id { get; init; }

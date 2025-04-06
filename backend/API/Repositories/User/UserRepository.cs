@@ -1,8 +1,7 @@
-using System;
 using API.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace API.Repositories.UserRepo;
+namespace API.Repositories;
 
 public class UserRepository : IUserRepository
 {

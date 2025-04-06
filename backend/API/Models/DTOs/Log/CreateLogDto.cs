@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace API.Models.DTOs.Log;
+namespace API.Models.DTOs;
 
 public class CreateLogDto
 {
