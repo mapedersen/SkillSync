@@ -2,7 +2,7 @@
 
 namespace API.Features.User.Requests;
 
-public class RegisterUserDto
+public class RegisterUserRequest
 {
     [Required]
     public string Username { get; set; } = null!;

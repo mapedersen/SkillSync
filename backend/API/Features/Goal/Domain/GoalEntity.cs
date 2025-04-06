@@ -12,7 +12,7 @@ public class GoalEntity
     public string? Category { get; set; }
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
-    public required UserEntity User { get; set; }
+    public UserEntity? User { get; set; }
     public ICollection<LogEntity> Logs { get; set; } = [];
 
 }

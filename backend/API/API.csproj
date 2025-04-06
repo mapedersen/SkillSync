@@ -14,17 +14,12 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.3" />
-    <PackageReference Include="Roslynator.Analyzers" Version="4.13.1">
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-      <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
     <PackageReference Include="Scalar.AspNetCore" Version="2.1.6" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Features\Goal\Domain\" />
     <Folder Include="Features\Goal\Repositories\" />
-    <Folder Include="Features\Goal\Services\" />
     <Folder Include="Features\Log\Domain\" />
     <Folder Include="Features\Log\Repositories\" />
     <Folder Include="Features\Log\Services\" />

@@ -10,12 +10,12 @@ public class UserService : IUserService
         throw new NotImplementedException();
     }
 
-    public Task<UserResponse> LoginAsync(LoginRequest dto)
+    public Task<UserResponse> LoginAsync(LoginRequest request)
     {
         throw new NotImplementedException();
     }
 
-    public Task<UserResponse> RegisterAsync(RegisterUserDto dto)
+    public Task<UserResponse> RegisterAsync(RegisterUserRequest request)
     {
         throw new NotImplementedException();
     }

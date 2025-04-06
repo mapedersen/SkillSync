@@ -5,7 +5,7 @@ namespace API.Features.User.Services;
 
 public interface IUserService
 {
-    Task<UserResponse> RegisterAsync(RegisterUserDto dto);
-    Task<UserResponse> LoginAsync(LoginRequest dto);
+    Task<UserResponse> RegisterAsync(RegisterUserRequest request);
+    Task<UserResponse> LoginAsync(LoginRequest request);
     Task<UserResponse> GetUserByIdAsync(Guid id);
 }

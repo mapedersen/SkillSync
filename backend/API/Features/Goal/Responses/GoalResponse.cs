@@ -1,4 +1,6 @@
-﻿namespace API.Features.Goal.Responses;
+﻿using API.Features.Goal.Domain;
+
+namespace API.Features.Goal.Responses;
 
 public class GoalResponse
 {
@@ -7,4 +9,4 @@ public class GoalResponse
     public string? Description { get; init; }
     public string? Category { get; init; }
     public DateTime CreatedAt { get; init; }
-}
+};
